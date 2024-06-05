@@ -26,7 +26,7 @@ public class Sanduiche {
     }
 
     public Tomate tomateFactory(){
-        return new Tomate(TomateEnum.Tomate);
+        return new Tomate(null);
     }
 
     @Override

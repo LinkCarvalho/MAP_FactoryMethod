@@ -22,4 +22,9 @@ public class SanduicheIntegral extends Sanduiche{
     public Ovo ovoFactory() {
         return new Ovo(OvoEnum.Capoeira);
     }
+
+    @Override
+    public Tomate tomateFactory() {
+        return new Tomate(TomateEnum.Tomate);
+    }
 }

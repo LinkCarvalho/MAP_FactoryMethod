@@ -22,4 +22,9 @@ public class SanduicheXFrango extends Sanduiche{
     public Ovo ovoFactory() {
         return new Ovo(OvoEnum.Granja);
     }
+
+    @Override
+    public Tomate tomateFactory() {
+        return new Tomate(TomateEnum.Tomate);
+    }
 }
